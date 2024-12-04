@@ -1,0 +1,91 @@
+body {
+    font-family: "Georgia", serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Header */
+header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #e8f0fe;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #4a90e2;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+/* Images */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
